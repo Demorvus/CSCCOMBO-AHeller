@@ -13,7 +13,11 @@ public class FlowChart {
 				total=total+250;
 			}
 			else {
-				System.out.println("");
+				System.out.println("Do you want activity fee? Yes = 1");
+				int fee=input.nextInt();
+				if (fee == 1) {
+				total=total+250;
+				}
 			}
 
 			System.out.println("The total tuition is: " + total);
