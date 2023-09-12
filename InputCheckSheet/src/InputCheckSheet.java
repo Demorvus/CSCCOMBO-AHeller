@@ -11,12 +11,12 @@ public class InputCheckSheet {
 		double biggerRealNum;
 		char letter;
 		
-		System.out.println("The word goes here");
-		word = input.next();
-		System.out.println("The word goes here" + word);
-		System.out.println("The number goes here");
-		intNum = input.nextInt();
-		System.out.println("The number goes here" + intNum);
+//		System.out.println("The word goes here");
+//		word = input.next();
+//		System.out.println("The word goes here" + word);
+//		System.out.println("The number goes here");
+//		intNum = input.nextInt();
+//		System.out.println("The number goes here" + intNum);
 		System.out.println("The number goes here");
 		realNum = input.nextFloat();
 		System.out.println("The number goes here" + realNum);
@@ -27,6 +27,7 @@ public class InputCheckSheet {
 		letter = input.next().charAt(0);
 		System.out.println("Enter Charachter" + letter);
 		System.out.printf("$%.2f", biggerRealNum);
+		
 		//
 		
 	}
