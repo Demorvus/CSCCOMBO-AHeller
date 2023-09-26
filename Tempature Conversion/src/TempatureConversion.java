@@ -13,6 +13,7 @@ public class TempatureConversion {
 		        double celsius = (fahrenheit - 32) * 5 / 9;
 		        double kelvin = celsius + 273.15;
 		        System.out.printf("%.2f°F is equivalent to %.2f°C and %.2fK.", fahrenheit, celsius, kelvin);
+		        
 		    }
 		}
 
