@@ -45,9 +45,9 @@ public class Exam1Final {
         return (a + b) == 10;
     
 //	** Problem 4
-    for (int i = 5; i <= 19; i++) {
-        System.out.println(i);
-    }
+//    for (int i = 5; i <= 19; i++) {
+//        System.out.println(i);
+//    }
 //    ** Problem 5
 //    boolean accumulator() {
 //        numbers = [];

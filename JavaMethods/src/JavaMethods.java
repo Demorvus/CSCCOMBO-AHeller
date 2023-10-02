@@ -51,5 +51,8 @@ public class JavaMethods {
 	    } else {
 	        return str.substring(middleIndex, middleIndex + 1);
 	    }
+	    
+	    
+	    public static String 
 	}
 }
