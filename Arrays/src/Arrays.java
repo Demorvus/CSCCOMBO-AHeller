@@ -26,11 +26,6 @@ public class Arrays {
 		for (int i = 0; i < num; i++) {
 			System.out.print(strLens[i]+ " ");
 		}
-//		{
-//			for (i = 0; i < num - 1; i++)
-//				;
-
-//		}
 	}
 
 }
