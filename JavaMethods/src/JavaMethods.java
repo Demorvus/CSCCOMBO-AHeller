@@ -1,30 +1,26 @@
 import java.util.Scanner;
-
 public class JavaMethods {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-//		System.out.println("Enter a number: ");
-//		int num1= scan.nextInt();
-//		System.out.println("Enter a number: ");
-//		int num2= scan.nextInt();
-//		System.out.println("Enter a number: ");
-//		int num3= scan.nextInt();
-//		System.out.println("smallestNum="+findSmallest(num1,num2,num3));
-//		
-//		
-//		System.out.println("Enter a number: ");
-//		num1= scan.nextInt();
-//		System.out.println("Enter a number: ");
-//		num2= scan.nextInt();
-//		System.out.println("Enter a number: ");
-//		num3= scan.nextInt();
-//		System.out.println("averageNum="+findAverage(num1,num2,num3));
-//		
+		System.out.println("Enter a number: ");
+		int num1= scan.nextInt();
+		System.out.println("Enter a number: ");
+		int num2= scan.nextInt();
+		System.out.println("Enter a number: ");
+		int num3= scan.nextInt();
+		System.out.println("smallestNum="+findSmallest(num1,num2,num3));
+		
+		System.out.println("Enter a number: ");
+		num1= scan.nextInt();
+		System.out.println("Enter a number: ");
+		num2= scan.nextInt();
+		System.out.println("Enter a number: ");
+		num3= scan.nextInt();
+		System.out.println("averageNum="+findAverage(num1,num2,num3));
 		
 		System.out.println("Enter a number: ");
 		String str= scan.next();
-		System.out.println("middleChar="+getMiddleChar(str));
+		System.out.println("middleString="+getMiddleChar(str));
 	}
 	public static float findSmallest (int num1, int num2, int num3) {
 		int smallest = num1;
@@ -35,13 +31,10 @@ public class JavaMethods {
 			smallest=num3;
 		}
 		return smallest;
-	
 	}
 	public static float findAverage (int num1, int num2, int num3) {
-		return (num1 + num2 + num3)/3;
+		return (float)(num1 + num2 + num3)/3;
 	}
-	
-	
 	
 	public static String getMiddleChar(String str) {
 	    int length = str.length();
@@ -51,8 +44,5 @@ public class JavaMethods {
 	    } else {
 	        return str.substring(middleIndex, middleIndex + 1);
 	    }
-	    
-	    
-	    public static String 
-	}
+	} // add this closing brace
 }

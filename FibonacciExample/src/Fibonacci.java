@@ -7,7 +7,7 @@ public class Fibonacci {
         System.out.println(fib(term));
         for (int i = 0; i <= term; i++) {
         	if(i%7 == 0)System.out.println();
-            System.out.println(fibArray[i]);
+            System.out.print(fibArray[i] +" ");
         }
     }
 

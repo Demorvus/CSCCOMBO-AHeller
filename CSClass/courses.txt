@@ -1,0 +1,30 @@
+Course Name: null
+Number of Students: 0
+Max Students: 0
+Credits: 0
+
+Course Name: CSC 101
+Number of Students: 20
+Max Students: 30
+Credits: 3
+
+Course Name: CSC 202
+Number of Students: 15
+Max Students: 25
+Credits: 4
+
+Course Name: null
+Number of Students: 0
+Max Students: 0
+Credits: 0
+
+Course Name: CSC 303
+Number of Students: 25
+Max Students: 35
+Credits: 5
+
+Course Name: CSC 404
+Number of Students: 18
+Max Students: 28
+Credits: 6
+
