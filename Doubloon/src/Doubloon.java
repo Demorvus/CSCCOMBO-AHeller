@@ -1,9 +1,9 @@
 
 public class Doubloon {
 	public static void main(String[] args) {
-		System.out.println(isDoubloon("Cocoon")); // true
-		System.out.println(isDoubloon("Hello")); // false
-		System.out.println(isDoubloon("Anna")); // true
+		System.out.println(isDoubloon("Cocoon"));
+		System.out.println(isDoubloon("Hello"));
+		System.out.println(isDoubloon("Anna"));
 	}
 
 	public static boolean isDoubloon(String word) {

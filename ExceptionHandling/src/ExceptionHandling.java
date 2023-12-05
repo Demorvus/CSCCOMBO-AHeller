@@ -14,8 +14,7 @@ public class ExceptionHandling {
 		} catch (ArrayIndexOutOfBoundsException e) {
 			nums = new int[] { 1, 2, 3, 4 };
 			int myNum = Integer.parseInt("s45");
-			 System.out.println("Oops you went way over the array." + "\nDid you really
-			 think that would work?");
+			 System.out.println("Oops you went way over the array." + "\nDid you really think that would work?");
 			 e.printStackTrace();
 			 System.out.println(e.getMessage());
 			nums = new int[12];

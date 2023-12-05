@@ -48,7 +48,15 @@ public class Deck {
 			}
 		}
 	}
-
+//	void selsort() {
+//		  for (int i=0; i<cards.length-1; i++) {       
+//		    int bigindex = 0;                      
+//		    for (int j=1; j<cards.length-i; j++)       
+//		      if (cards[j].compareTo(cards[bigindex]) > 0) 
+//		        bigindex = j;                      
+//		    swapDeckCards(cards, bigindex, cards.length-i-1);  
+//		  }
+//		}
 	public static void shuffle(Deck deck) {
 		Card[] cards = deck.getCards();
 		for (int i = 0; i < cards.length; i++) {
