@@ -15,3 +15,4 @@ class Student extends Person {
 		this.status = status;
 	}
 }
+//

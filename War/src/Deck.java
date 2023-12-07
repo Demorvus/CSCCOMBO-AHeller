@@ -33,7 +33,6 @@ public class Deck {
 			swap(i, index);
 		}
 	}
-
 	private static void swapDeckCards(Card[] cards, int a, int b) {
 		Card temp = cards[a];
 		cards[a] = cards[b];
@@ -79,7 +78,7 @@ public class Deck {
 	}
 	return subDeck;
 }
-	
+
 	
 	@Override
 	public String toString() {
@@ -93,6 +92,8 @@ public class Deck {
 		return retStr.toString();
 	}
 	
-
+//git add .
+//git commit .m "Exam 4"
+//git push
 	
 }

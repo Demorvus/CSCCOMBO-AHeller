@@ -3,6 +3,8 @@ class Companion {
     int health;
     int attack;
     int defense;
+	public int experience;
+	public String level;
 
     Companion(String name) {
         this.name = name;
@@ -17,4 +19,13 @@ class Companion {
         System.out.println("Attack: " + attack);
         System.out.println("Defense: " + defense);
     }
+
+	public void gainExperience(int experience) {
+		
+	}
+
+	public void levelUp() {
+		// TODO Auto-generated method stub
+	// create a project named
+	}
 }

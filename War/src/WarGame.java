@@ -42,6 +42,10 @@ public class WarGame {
 		} else if (winP1.size() > winP2.size()) {
 			System.out.println("Player 2 wins");
 		}
+//		
+//		New player = newDie() = new ("1'-"6");
+// 		"1 < 6" {
+//}
 //		Card card1 = new Card(11, 0);
 //		System.out.println(card1);
 //		Deck deck = new Deck();
